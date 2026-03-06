@@ -32,6 +32,7 @@ start:
 	rcall gen_random_num
 	rcall copy_to_bubble
 	rcall organizar_bubble
+	rcall organizar_selection
 	rjmp start
 
 ;Subrutina para generar numeros pseudoaleatorios
@@ -98,4 +99,42 @@ saltar_intercambio:
 	dec multiplicador
 	brne bubble_loop_ext
 fin_bubble:
+	ret
+
+;Organizar por el algoritmo selection sort
+organizar_selection:
+	ldi multiplicador, 0x64
+	;Apuntador
+	ldi ZH, high(table_of_sorted_numbers_alg2)
+	ldi ZL, low(table_of_sorted_numbers_alg2)
+selection_loop_ext:
+	mov r19, multiplicador
+	dec r19
+	breq fin_selection
+	ld r16, Z
+	mov YH, ZH
+	mov YL, ZL
+	mov XH, ZH
+	mov XL, ZL
+	adiw r26, 1
+	mov r20, r19
+selection_loop_int:
+	ld semilla, X
+	cp semilla, r16
+	brsh selection_skip
+	mov r16, semilla
+	mov YH, XH
+	mov YL, XL
+selection_skip:
+	adiw r26, 1
+	dec r20
+	brne selection_loop_int
+	ld semilla, Z
+	st Y, semilla
+	st Z, r16
+	adiw ZH:ZL, 1
+	dec multiplicador
+	brne selection_loop_ext
+
+fin_selection:
 	ret
