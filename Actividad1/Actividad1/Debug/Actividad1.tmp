@@ -1,0 +1,39 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\Emi16\OneDrive\Documentos\Atmel Studio\7.0\Actividad1\Actividad1\Actividad1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:/Program Files\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>D:\Program Files\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Emi16\OneDrive\Documentos\Atmel Studio\7.0\Actividad1\Actividad1\Actividad1\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:/Program Files\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Emi16\OneDrive\Documentos\Atmel Studio\7.0\Actividad1\Actividad1\Actividad1\Debug\Actividad1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Actividad1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Actividad1.map</FILE>
+  <FILE>Actividad1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <table_of_unsorted_numbers><FILE>C:\Users\Emi16\OneDrive\Documentos\Atmel Studio\7.0\Actividad1\Actividad1\Actividad1\main.asm</FILE><LINE>14</LINE></table_of_unsorted_numbers>
+  <table_of_sorted_numbers_alg1><FILE>C:\Users\Emi16\OneDrive\Documentos\Atmel Studio\7.0\Actividad1\Actividad1\Actividad1\main.asm</FILE><LINE>15</LINE></table_of_sorted_numbers_alg1>
+  <table_of_sorted_numbers_alg2><FILE>C:\Users\Emi16\OneDrive\Documentos\Atmel Studio\7.0\Actividad1\Actividad1\Actividad1\main.asm</FILE><LINE>16</LINE></table_of_sorted_numbers_alg2>
+  <start><FILE>C:\Users\Emi16\OneDrive\Documentos\Atmel Studio\7.0\Actividad1\Actividad1\Actividad1\main.asm</FILE><LINE>31</LINE></start>
+  <gen_random_num><FILE>C:\Users\Emi16\OneDrive\Documentos\Atmel Studio\7.0\Actividad1\Actividad1\Actividad1\main.asm</FILE><LINE>38</LINE></gen_random_num>
+  <copy_to_bubble><FILE>C:\Users\Emi16\OneDrive\Documentos\Atmel Studio\7.0\Actividad1\Actividad1\Actividad1\main.asm</FILE><LINE>59</LINE></copy_to_bubble>
+  <organizar_bubble><FILE>C:\Users\Emi16\OneDrive\Documentos\Atmel Studio\7.0\Actividad1\Actividad1\Actividad1\main.asm</FILE><LINE>74</LINE></organizar_bubble>
+  <loop><FILE>C:\Users\Emi16\OneDrive\Documentos\Atmel Studio\7.0\Actividad1\Actividad1\Actividad1\main.asm</FILE><LINE>49</LINE></loop>
+  <loop_bubble><FILE>C:\Users\Emi16\OneDrive\Documentos\Atmel Studio\7.0\Actividad1\Actividad1\Actividad1\main.asm</FILE><LINE>66</LINE></loop_bubble>
+  <bubble_loop_ext><FILE>C:\Users\Emi16\OneDrive\Documentos\Atmel Studio\7.0\Actividad1\Actividad1\Actividad1\main.asm</FILE><LINE>76</LINE></bubble_loop_ext>
+  <fin_bubble><FILE>C:\Users\Emi16\OneDrive\Documentos\Atmel Studio\7.0\Actividad1\Actividad1\Actividad1\main.asm</FILE><LINE>100</LINE></fin_bubble>
+  <bubble_loop_int><FILE>C:\Users\Emi16\OneDrive\Documentos\Atmel Studio\7.0\Actividad1\Actividad1\Actividad1\main.asm</FILE><LINE>84</LINE></bubble_loop_int>
+  <saltar_intercambio><FILE>C:\Users\Emi16\OneDrive\Documentos\Atmel Studio\7.0\Actividad1\Actividad1\Actividad1\main.asm</FILE><LINE>92</LINE></saltar_intercambio>
+ </LABELS>
+</ASSEMBLER_INFO>
